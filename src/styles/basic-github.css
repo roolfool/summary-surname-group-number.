@@ -1,0 +1,58 @@
+@font-face{
+    font-family:"Montserrat-Regular";
+    src: url(fonds/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:"Roboto-Regular";
+    src: url(fonds/Roboto-Regular.ttf);
+}
+@font-face{
+  font-family:"SFMono-Regular";
+    src: url(fonds/SFMono-Regular.otf);
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+font-size: 18px;
+font-weight: 400px;
+background: #cd5a21;}
+.list2{
+    list-style: none;
+      }
+      .list{
+        list-style: none;
+        background: linear-gradient(45deg, var(--b-tri), var(--y-tri));
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px;
+        padding-left: 50px;
+      }
+      .logo{
+        height: 70px;
+        width: 70px;}
+      .logo5{
+        height: 50px;
+        width: 50px;
+        padding-left: 1300px;
+        }
+        footer{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(177, 245, 33);
+        }
+        .pf{
+            text-align: right;
+            font-size: 0.7em;
+            
+            }
+            .pf2{
+              text-align: center;
+              font-size: 0.7em;
+            
+            }
+            .pf3{
+              text-align: center;
+              font-size: 3em;
+              color: rgb(12, 238, 12);
+            }
